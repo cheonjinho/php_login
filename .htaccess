@@ -1,6 +1,10 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
+
+
+RewriteEngine on
+RewriteCond $1 !^(index\.php|favicon\.ico|cula|asset|robots\.txt)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L] 
-</IfModule>
+RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
+php_flag short_open_tag on
