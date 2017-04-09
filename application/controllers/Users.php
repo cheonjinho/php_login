@@ -49,8 +49,12 @@ class Users extends CI_Controller {
                 );
                 $checkLogin = $this->user->getRows($con);
                 if($checkLogin){
+                		error_log($this->user->getRows(array('id'=>$this->session->userdata('userId'))));
                     $this->session->set_userdata('isUserLoggedIn',TRUE);
                     $this->session->set_userdata('userId',$checkLogin['id']);
+                    session_start();
+										$_SESSION['loggedin'] = true;
+										$_SESSION['username'] = $username;
                     redirect('users/account/');
                 }else{
                     $data['error_msg'] = 'Wrong email or password, please try again.';

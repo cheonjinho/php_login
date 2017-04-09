@@ -9,6 +9,16 @@ body{
 	margin: 0;
 }
 
+a{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover{
+	opacity: .7;
+}
+
 .main_view{
 	font-size: 14px;
 }
@@ -18,6 +28,7 @@ body{
 	left: 0; top: 0;
 	width: 100%;
 	height: 60px;
+	text-align: right;
 	background-color: rgba(0,0,0,0.4);
 }
 
@@ -29,6 +40,20 @@ body{
 	left: 0; right: 0; top: 0; bottom: 0;
 	background-color: rgba(0,0,0,0.6);
 }
+
+
+.head-action-login{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 300px;
+	height: 100%;
+}
+
+.head-action-login > div{
+	color: white;
+	font-size: 14px;
+	margin: auto;
+}	
 
 #head-login-form{
 	background-color: white;

@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">  
-<head>
-<link href="<?php echo base_url(); ?>assets/css/style.css" rel='stylesheet' type='text/css' />
-</head>
-<body>
 <div class="container">
     <h2>User Login</h2>
     <?php
@@ -28,5 +22,3 @@
     </form>
     <p class="footInfo">Don't have an account? <a href="<?php echo base_url(); ?>users/registration">Register here</a></p>
 </div>
-</body>
-</html>

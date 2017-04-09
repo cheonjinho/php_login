@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">  
-<head>
-<link href="<?php echo base_url(); ?>assets/css/style.css" rel='stylesheet' type='text/css' />
-</head>
-<body>
 <div class="container">
     <h2>User Registration</h2>
     <form action="" method="post">
@@ -55,5 +49,3 @@
     </form>
     <p class="footInfo">Already have an account? <a href="<?php echo base_url(); ?>users/login">Login here</a></p>              
 </div>
-</body>
-</html>
