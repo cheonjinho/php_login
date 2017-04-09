@@ -19,7 +19,7 @@ class Users extends CI_Controller {
             $data['user'] = $this->user->getRows(array('id'=>$this->session->userdata('userId')));
             //load the view
             $this->load->view('users/account', $data);
-        }else{
+        } else{
             redirect('users/login');
         }
     }
