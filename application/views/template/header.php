@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html>
 <head>
-	<title>Php Project</title>
 	<link rel = "stylesheet" type = "text/css" href = "<?php echo base_url(); ?>aseets/stylesheet/application.css">
 </head>
 
-<body>
-	Hello world!
-</body>
-
-</html>
+<div style="width: 100%; background-color: #F5F5F5;">
+	header
+</div>
