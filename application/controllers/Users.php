@@ -55,7 +55,7 @@ class Users extends CI_Controller {
                     session_start();
 										$_SESSION['loggedin'] = true;
 										$_SESSION['username'] = $username;
-                    redirect('users/account/');
+                    redirect('');
                 }else{
                     $data['error_msg'] = 'Wrong email or password, please try again.';
                 }
@@ -106,7 +106,7 @@ class Users extends CI_Controller {
         $this->session->unset_userdata('isUserLoggedIn');
         $this->session->unset_userdata('userId');
         $this->session->sess_destroy();
-        redirect('users/login/');
+        redirect('');
     }
     
     /*

@@ -1,3 +1,20 @@
-<div style="width: 100%; height: 600px; background-image: url(&quot;https://d24govhj3346bb.cloudfront.net/home/8d3bf5a0-ffd6-11e6-a25d-5d4d0310499c.jpg&quot;);">
-	<div class="credit"></div>
+<div class="main-slider">
+	<div class="main-search-bar">
+		<div class="main-search-area">
+			<div class="main-search-form">
+				<div class="main-search-where">
+					<div style="margin: auto 10px;">어디로 가세요?</div>
+				</div>
+				<div class="main-search-when">
+					<div style="margin: auto 10px;">일정선택</div>
+				</div>
+				<div class="main-search-type">
+					<div style="margin: auto 10px;">모든종류</div>
+				</div>
+				<div class="main-search-btn">
+					<div style="margin: auto;">검색</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

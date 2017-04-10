@@ -9,10 +9,11 @@
 <body>
 	<div class="head-area">
 		<div class="head-action-login">
-			<div id="head-call-guide">이용방법</div>
+			<div id="head-call-guide">스내퍼스 소개</div>
 			
 			<? if(isset($_SESSION['loggedin'])){ ?>
-				<div id="head-call-login">안녕하세요 <?php echo $user['username']; ?></div>
+				<div id="head-call-login"><a href="<?php echo base_url(); ?>users/account">안녕하세요 <?php echo $user['username']; ?>님</a></div>
+				<div id="head-call-logout"><a href="<?php echo base_url(); ?>users/logout">로그아웃</a></div>
 			<? } else { ?>
 				<div id="head-call-login"><a href="<?php echo base_url(); ?>users/login">로그인</a></div>
 				<div id="head-call-registration"><a href="<?php echo base_url(); ?>users/registration">회원가입</a></div>
