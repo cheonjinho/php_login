@@ -15,7 +15,7 @@ class Upload extends CI_Controller {
 
 	public function do_upload()
 	{
-		$config['upload_path']          = './uploads/';
+		$config['upload_path']          = './application/uploads/';
 		$config['allowed_types']        = 'gif|jpg|png';
 		$config['max_size']             = 0;
 		$config['max_width']            = 0;
