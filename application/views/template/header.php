@@ -9,7 +9,7 @@
 <body>
 	<div class="head-area">
 		<div class="head-action-login">
-			<div id="head-call-guide">스내퍼스 소개</div>
+			<div id="head-call-guide">스내 소개</div>
 			
 			<? if(isset($_SESSION['loggedin'])){ ?>
 				<div id="head-call-login"><a href="<?php echo base_url(); ?>users/account">안녕하세요 <?php echo $user['username']; ?>님</a></div>
